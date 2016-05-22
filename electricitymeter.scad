@@ -1,7 +1,7 @@
 use <MCAD/boxes.scad>
 module photodiode() { rotate([180,0,0]) union() {
-translate([0,0,-5])cylinder(r=2.5,h=5);
-translate([0,0,-5.5])cylinder(r=3,h=1);
+translate([0,0,-5])cylinder(r=2.55,h=5);
+translate([0,0,-5.5])cylinder(r=3.05,h=1);
 } }
 
 module meter() { translate([-64.5,0,0]) {
